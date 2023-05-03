@@ -1,0 +1,8 @@
+! name: Remove facebook and Instagram Goggle
+! description: This goggle removes search results from facebook and Instagram
+! public: true
+! author: Akshay
+
+
+$discard,site=instagram.com
+$discard,site=facebook.com
